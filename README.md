@@ -18,5 +18,6 @@ This code uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized 
 All the optical and SAR data were preprocessed using the ESA SNAP software.
 1. Part A imports the preprocessed satellite data, averages the satellite data response for each field boundary, and stores them as a geoparquet file for the analysis.
 2. Part B imports the geoparquet file from file A, in addition to the temperature data for all regions. It cleans the data, creates features, trains and test models, and visualizes the results.
-   NB: To run Part A, you'll need to download all satellite data from the sources provided and preprocess them. 
+   
+NB: To run Part A, you'll need to download all satellite data from the sources provided and preprocess them. 
 
