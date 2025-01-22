@@ -1,5 +1,5 @@
 ## Optical vegetation indices (VIs) estimation project
-This code uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized Landsat Sentinel data (HLS). To improve spatial transferability across different geographical regions, time-related variables such as growing degree days (GDD) and day of year (DOY) are evaluated on a multi-seasonal time series data. Model performance is also assessed at different crop growth stages.
+This code uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized Landsat Sentinel data (HLS). To improve spatial transferability across different geographical regions, time-related variables such as growing degree days (GDD) and day of year (DOY) are evaluated on a multi-seasonal time series data. Model performance is also assessed at different crop growth stages. Corn and soyabeans fields were analyzed.
 
 ## Data Sources
 [1. Harmonized Landsat Sentinel](https://search.earthdata.nasa.gov/search?q=hls)
