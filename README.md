@@ -1,5 +1,5 @@
 ## Optical vegetation indices (VIs) estimation project
-This code uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized Landsat Sentinel data (HLS). To improve spatial transferability across different geographical regions, time-related variables such as growing degree days (GDD) and day of year (DOY) are evaluated. Model performance is also assessed at different crop growth stages.
+This code uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized Landsat Sentinel data (HLS). To improve spatial transferability across different geographical regions, time-related variables such as growing degree days (GDD) and day of year (DOY) are evaluated on a multi-seasonal time series data. Model performance is also assessed at different crop growth stages.
 
 ## Data Sources
 [1. Harmonized Landsat Sentinel](https://search.earthdata.nasa.gov/search?q=hls)
@@ -13,4 +13,10 @@ This code uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized 
 [5. Crop field boundaries for France region](https://geoservices.ign.fr/rpg)
 
 [6. Crop field boundaries for Brazil region](https://ieee-dataport.org/open-access/campo-verde-database)
+
+## Runing the code
+All the optical and SAR data were preprocessed using the ESA SNAP software.
+1. Part A imports the preprocessed satellite data, averages the satellite data response for each field boundary, and stores them as a geoparquet file for the analysis.
+2. Part B imports the geoparquet file from file A, in addition to the temperature data for all regions. It cleans the data, creates features, trains and test models, and visualizes the results.
+3. NB: To run Part A, you'll need to download all satellite data from the sources provided and preprocess them. 
 
