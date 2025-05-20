@@ -1,5 +1,5 @@
-## Optical vegetation indices (VIs) estimation project
-This project uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized Landsat Sentinel data (HLS). To improve model transferability across different geographical regions, time-related variables such as accumulated growing degree days (AGDD) and day-after-planting (DAP) are evaluated in addition to SAR variables and auxiliary data on a multi-seasonal time series data. Model performance is also assessed at different crop growth stages. Corn and soyabeans fields were analyzed.
+## Estimating Optical Vegetation Indices (VIs) Using SAR Data for Crop Monitoring
+This project uses SAR data from Sentinel-1 to estimate optical VIs from Harmonized Landsat Sentinel data (HLS). To improve model transferability across different geographical regions, time-related variables such as accumulated growing degree days (AGDD) and day-after-planting (DAP) are evaluated in addition to SAR variables and auxiliary data on a multi-seasonal time series data. Model performance is also assessed at different crop growth stages/VIs ranges. Corn and soyabeans are the 2 crops used in this project.
 
 ## Data Sources
 [1. Harmonized Landsat Sentinel](https://search.earthdata.nasa.gov/search?q=hls)
